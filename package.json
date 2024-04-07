@@ -1,5 +1,5 @@
 {
-  "name": "ajv-keywords",
+  "name": "@eggjs/ajv-keywords",
   "version": "5.1.0",
   "description": "Additional JSON-Schema keywords for Ajv JSON validator",
   "main": "dist/index.js",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/epoberezkin/ajv-keywords.git"
+    "url": "git+https://github.com/eggjs/ajv-keywords.git"
   },
   "keywords": [
     "JSON-Schema",
@@ -31,14 +31,11 @@
   "author": "Evgeny Poberezkin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/epoberezkin/ajv-keywords/issues"
+    "url": "https://github.com/eggjs/ajv-keywords/issues"
   },
-  "homepage": "https://github.com/epoberezkin/ajv-keywords#readme",
+  "homepage": "https://github.com/eggjs/ajv-keywords#readme",
   "dependencies": {
     "fast-deep-equal": "^3.1.3"
-  },
-  "peerDependencies": {
-    "ajv": "^8.8.2"
   },
   "devDependencies": {
     "@ajv-validator/config": "^0.2.3",
@@ -70,5 +67,8 @@
   },
   "lint-staged": {
     "*.{md,json,yaml,js,ts}": "prettier --write"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

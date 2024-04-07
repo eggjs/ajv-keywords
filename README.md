@@ -1,5 +1,7 @@
 # ajv-keywords
 
+> forked: remove `peerDependencies` and let it can dependency by eggjs.
+
 Custom JSON-Schema keywords for [Ajv](https://github.com/epoberezkin/ajv) validator
 
 [![build](https://github.com/ajv-validator/ajv-keywords/workflows/build/badge.svg)](https://github.com/ajv-validator/ajv-keywords/actions?query=workflow%3Abuild)
